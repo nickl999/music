@@ -32,6 +32,7 @@ span.hide
 .left	{ float:left;	}
 .clear	{ clear:both;	}
 
+
 <!-- HTML Codes by Quackit.com -->
 <audio src="https://open.spotify.com/user/nninjaboy99/playlist/2dRrqEJcpQtKah0xVPLdG4" controls  id="MusicPlayer">
 <embed src="https://open.spotify.com/user/nninjaboy99/playlist/2dRrqEJcpQtKah0xVPLdG4" autoplay="false" width="450" height="300" name="MusicPlayer" id="MusicPlayer">
