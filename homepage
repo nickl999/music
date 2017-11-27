@@ -1,0 +1,291 @@
+/* mlpdesign05. The Music that I like. */
+
+/* Global Settings */
+
+body 
+ {	background:url(images/bg-page.gif) repeat-x #8d7c74;
+	color:#333;
+	font:normal 12px Arial,sans-serif;
+	text-align:center;
+	padding: 0;
+	margin:0;}
+p
+ {	text-align:left;
+	padding:8px 0;
+	margin:0;	}
+	
+a 
+ {	background-color:inherit;
+	color:#fc0;	
+	text-decoration:none;	}
+
+img 
+ {	border:2px solid #999;
+	padding:3px;
+	margin:0 .25em;	} 
+ 
+span.hide
+ {	display:none;	}
+
+.center	{ text-align:center;	}
+.right	{ float:right;	} 
+.left	{ float:left;	}
+.clear	{ clear:both;	}
+
+<!-- HTML Codes by Quackit.com -->
+<audio src="https://open.spotify.com/user/nninjaboy99/playlist/2dRrqEJcpQtKah0xVPLdG4" controls  id="MusicPlayer">
+<embed src="https://open.spotify.com/user/nninjaboy99/playlist/2dRrqEJcpQtKah0xVPLdG4" autoplay="false" width="450" height="300" name="MusicPlayer" id="MusicPlayer">
+</audio>
+
+
+	
+/* Wrappers */
+#wrapper
+ {	width:782px;
+	padding:0;
+	margin:1em auto;	}
+
+#wrapper2
+ {	background:url(images/bg-body.gif) center repeat-y;
+	width:782px;
+	padding:0;
+	margin:0;	}
+
+
+
+/* Header Settings */
+#header
+ {	background:url(images/bg-header.gif) center no-repeat;
+	width:782px;
+	height:158px;
+	padding:0;
+	margin:0;	}
+	
+#header ul 
+ {	width:600px;
+	list-style:none;
+	padding:1em 0 0 2em;
+	margin:0;
+	float:left;	}
+
+#header ul li 
+ {	text-align:left;
+	font:bold 12px Tahoma,sans-serif;
+	padding:0 8px;
+	margin:0;
+	float:left;
+	display:inline;	} 
+
+#header ul li a:hover
+ {	text-decoration:underline;	}
+	
+#titlebar-home,#titlebar-sitemap
+ {	width:25px;
+	padding:0;
+	margin:2px 0 0 0;
+	float:left;	}
+	
+#titlebar-home a,#titlebar-sitemap a
+ {	width:25px;
+	height:20px;
+	display:block;	}
+	
+#titlebar-title
+ {	width:730px;
+	padding:0;
+	margin:0;
+	float:left;	}
+
+#titlebar-title h1
+ {	font:normal 18px 'Trebuchet MS',sans-serif;
+	padding:0;
+	margin:0;}
+
+#titlebar-title a
+ {	background-color:inherit;
+	color:#ccc;	}
+
+#newsbox
+ {	background:url(images/bg-newsbox.gif) center no-repeat;
+	width:562px;
+	height:61px;
+	padding:0;
+	margin:1em 0 0 2em;
+	float:left;
+	clear:both;	}
+
+#newsbox p
+ {	background-color:inherit;
+	color:#999;
+	font-size:8pt;
+	text-align:left;
+	padding:0 8px;
+	margin:0;	}
+
+#newsbox h1
+ {	background-color:inherit;
+	color:#aaa;
+	font-size:8pt;
+	text-align:left;
+	padding:5px 0 0 8px;
+	margin:0;	}
+
+#newsbox a
+ {	background-color:inherit;
+	color:#999;
+	text-decoration:underline;	}
+
+
+	
+/* Content Settings */
+#content
+ {	width:445px;
+	text-align:left;
+	padding:0;
+	margin:0;
+	float:left;	}
+
+#content h1
+ {	font-size:15px;
+	padding:0;
+	margin:1em 0 0 30px;}
+	
+#content p
+ {	padding:10px 10px 5px 30px;	}	
+
+#content span.meta
+ {	background-color:inherit;
+	color:#930;
+	font-size:11px;
+	padding:5px 10px 5px 30px;
+	margin:0;	}
+
+#content a
+ {	background-color:inherit;
+	color:#930;
+	font:bold 11px Arial,sans-serif;	}
+
+#content .item
+ {	width:98%;
+	border-bottom:1px dotted #ccc;
+	padding:0 0 10px 0;
+	margin:0 auto;}
+ 
+ 
+	
+/* Sidebars Settings */
+#sidebar-a,#sidebar-b
+ {	width:150px;
+	font-size:11px;
+	padding:0;
+	margin:0 0 0 1.25em;
+	float:left;	}
+
+#sidebar-a h1
+ {	text-align:left;
+	font-size:13px;
+	padding:10px 0 0 0;	}
+
+#sidebar-a a
+ {	background-color:inherit;
+	color:#666;
+	border-bottom:1px dotted #999;	}
+	
+#featured-artist
+ {	background-color:#eee;
+	color:#999;
+	text-align:center;
+	border:2px solid #999;
+	font-weight:bold;
+	padding:10px 0;
+	margin:1em 0;	}
+
+#featured-artist img
+ {	border:0;
+	margin:0;}	
+	
+#sidebar-b h1
+ {	background-color:inherit;
+	color:#eee;
+	text-align:left;
+	font-size:13px;
+	padding:10px 0 0 5px;	}
+
+#sidebar-b a:hover
+ {	text-decoration:underline;	}
+	
+#sidebar-b p
+ {	background-color:inherit;
+	color:#999;
+	padding:2px 0 2px 5px;}
+
+#sidebar-b ul
+ {	list-style:none;
+	padding:0;
+	margin:1em 0;	}
+
+#sidebar-b ul li
+ {	background-color:inherit;
+	color:#fc0;
+	text-align:left;
+	padding:2px 2px 3px 8px;
+	margin:0;	}
+
+#sidebar-b ol li
+ {	background-color:inherit;
+	color:#fc0;
+	text-align:left;
+	padding:2px 0;
+	margin:0 0 0 -12px;	}
+
+	
+span.song-title
+ {	font-weight:bold;	}
+
+
+ 
+/* Footer Settings */
+#footer
+ {	background:url(images/bg-footer.gif) center no-repeat;
+	background-color:inherit;
+	color:#ddd;
+	width:782px;
+	height:65px;
+	padding:0;
+	margin:0;
+	clear:both;	}
+
+#footer ul 
+ {	width:600px;
+	list-style:none;
+	padding:2.5em 0 0 2em;
+	margin:0 auto;	}
+
+#footer ul li 
+ {	text-align:center;
+	font:bold 11px Tahoma,sans-serif;
+	padding:0 8px;
+	margin:0;
+	display:inline;	} 
+
+#footer ul li a:hover
+ {	text-decoration:underline;	}
+	
+#credits
+ {	background-color:inherit;	
+	color:#ddd;
+	font-size:11px;
+	width:782px;
+	padding:3px 0;
+	margin:0;	}
+
+#credits a
+ {	background-color:inherit;
+	color:#eee;	}
+
+
+
+/* IE */
+* html body #newsbox
+ {	margin:1em 0 0 1em;	}	
+
